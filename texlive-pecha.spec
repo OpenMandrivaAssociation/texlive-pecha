@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/tibetan/pecha
+# catalog-date 2006-10-13 13:00:52 +0200
+# catalog-license gpl
+# catalog-version 0.1
 Name:		texlive-pecha
 Version:	0.1
 Release:	1
@@ -47,6 +53,7 @@ languages, page numbering in Tibetan and more.
 %doc %{_texmfdistdir}/doc/latex/pecha/example.tex
 %doc %{_texmfdistdir}/doc/latex/pecha/pecha_docu.pdf
 %doc %{_texmfdistdir}/doc/latex/pecha/pecha_docu.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ languages, page numbering in Tibetan and more.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
