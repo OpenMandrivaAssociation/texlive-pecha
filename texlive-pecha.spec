@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-pecha
 Version:	0.1
-Release:	7
+Release:	8
 Summary:	Print Tibetan text in the classic pecha layout style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/tibetan/pecha
