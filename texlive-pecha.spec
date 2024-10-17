@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Print Tibetan text in the classic pecha layout style
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/tibetan/pecha
+URL:		https://www.ctan.org/tex-archive/language/tibetan/pecha
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pecha.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pecha.doc.r%{version}.tar.xz
